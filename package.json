@@ -3,7 +3,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "jetifier -r"
   },
   "dependencies": {
     "expo-screen-orientation": "^1.0.0",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "babel-jest": "24.1.0",
     "jest": "24.1.0",
+    "jetifier": "^1.6.5",
     "metro-react-native-babel-preset": "0.52.0",
     "react-test-renderer": "16.6.3"
   },
